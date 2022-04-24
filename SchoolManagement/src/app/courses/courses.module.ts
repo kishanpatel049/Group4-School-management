@@ -13,6 +13,6 @@ import { CoursesHomeComponent } from './courses-home/courses-home.component';
     CommonModule,
     CoursesRoutingModule
   ],
-  exports:[CoursesHomeComponent]
+  exports:[]
 })
 export class CoursesModule { }

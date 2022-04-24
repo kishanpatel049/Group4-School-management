@@ -13,6 +13,6 @@ import { RegisterHomeComponent } from './register-home/register-home.component';
     CommonModule,
     RegisterRoutingModule
   ],
-  exports:[RegisterHomeComponent]
+  exports:[]
 })
 export class RegisterModule { }

@@ -13,6 +13,6 @@ import { RecordsHomeComponent } from './records-home/records-home.component';
     CommonModule,
     RecordsRoutingModule
   ],
-  exports:[RecordsHomeComponent]
+  exports:[]
 })
 export class RecordsModule { }

@@ -13,6 +13,6 @@ import { SchoolsHomeComponent } from './schools-home/schools-home.component';
     CommonModule,
     SchoolsRoutingModule
   ],
-  exports:[SchoolsHomeComponent]
+  exports:[]
 })
 export class SchoolsModule { }

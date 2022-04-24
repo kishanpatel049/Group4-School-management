@@ -13,6 +13,6 @@ import { RolesHomeComponent } from './roles-home/roles-home.component';
     CommonModule,
     RolesRoutingModule
   ],
-  exports:[RolesHomeComponent]
+  exports:[]
 })
 export class RolesModule { }

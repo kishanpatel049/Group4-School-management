@@ -13,6 +13,6 @@ import { FinanceHomeComponent } from './finance-home/finance-home.component';
     CommonModule,
     FinanceRoutingModule
   ],
-  exports:[FinanceHomeComponent]
+  exports:[]
 })
 export class FinanceModule { }

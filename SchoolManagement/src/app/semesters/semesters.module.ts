@@ -13,6 +13,6 @@ import { SemestersHomeComponent } from './semesters-home/semesters-home.componen
     CommonModule,
     SemestersRoutingModule
   ],
-  exports:[SemestersHomeComponent]
+  exports:[]
 })
 export class SemestersModule { }
