@@ -13,6 +13,7 @@ import { FinanceModule } from './finance/finance.module';
 import { RegisterModule } from './register/register.module';
 import { RolesModule } from './roles/roles.module';
 import { RecordsModule } from './records/records.module';
+
 @NgModule({
   declarations: [
     AppComponent
