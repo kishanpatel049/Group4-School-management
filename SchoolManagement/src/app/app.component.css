@@ -10,8 +10,8 @@ body {
   Black: #20302F
   */
   .sidebar {
-    margin: 0;
-    padding: 0;
+     margin: left; /*set to 0? */
+    padding: none; /*set to 0? */
     width: 250px;
     font-size: 18px;
     background-color: #686ccb;
@@ -42,7 +42,7 @@ body {
     width: 100%;
     background-color: #686ccb;
     text-decoration: none;
-    box-decoration-break: none;
+    /* box-decoration-break: none; */
   }
   .sidebar option {
     display: block;
@@ -52,14 +52,11 @@ body {
     background-color: #686ccb;
     text-decoration: none;
   }
-  
   div.content {
     margin-left: 250px;
     padding: 10px 20px;
     height: 100%; /*make 500px to extend page*/
-    
   }
-  
   @media screen and (max-width: 700px) {
     .sidebar {
       width: 100%;
@@ -69,7 +66,6 @@ body {
     .sidebar a {float: left;}
     div.content {margin-left: 0;}
   }
-  
   @media screen and (max-width: 400px) {
     .sidebar a {
       text-align: center;
