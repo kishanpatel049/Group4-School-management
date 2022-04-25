@@ -8,17 +8,34 @@
 
 <div class="sidebar">
     <h1>Church of Phillipi</h1> <!-- can add img here instead -->
-  <a href="nextPage.html" class="active">Home</a>
+    <a href="nextPage.html" class="active">Home</a>
 
-  <select onchange="location= this.value;"> <!--allows option to go to next page-->
+    <div class="dropdown">
+    <select onchange="location= this.value;"> <!--allows option to go to next page, change routing later-->
     <option disabled selected hidden>School Info</option> 
     <option value="nextPage.html">Schools</option>
     <option value="nextPage.html">Semesters</option>
-    <option value="nextPage.html">Classes</option>
-</select>
-<a href="nextPage.html">Registration</a>
-<a href="nextPage.html">Finance</a>
-<a href="nextPage.html">Records</a>
+    <option value="nextPage.html" >Classes</option>
+    </select>
+    <select onchange="location= this.value;">
+    <option disabled selected hidden>Registration</option> 
+    <option value="nextPage.html">Suggested Classes</option>
+    <option value="nextPage.html">Enroll</option>
+    <option value="nextPage.html" >Drop</option>
+    </select>
+    <select onchange="location= this.value;">
+    <option disabled selected hidden>Finance</option> 
+    <option value="nextPage.html">Pay Tuition</option>
+    <option value="nextPage.html">Pending Payment</option>
+    </select>
+    <select onchange="location= this.value;">
+    <option disabled selected hidden>Records</option> 
+    <option value="nextPage.html">Student's List</option>
+    <option value="nextPage.html">School's List</option>
+    <option value="nextPage.html">Employee's List</option>
+    <option value="nextPage.html">Finance's List</option>
+    </select>
+    </div>
 <a href="nextPage.html">Logout</a>
 </div>
 
