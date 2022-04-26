@@ -1,4 +1,7 @@
 
+
 <div>
-  <button mat-stroked-button>schools</button>
+  <div *ngFor="let link of links">
+    <a [routerLink]="link.route">{{link.rouerName}}</a>
+  </div>
 </div>
