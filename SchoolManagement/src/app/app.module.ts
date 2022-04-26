@@ -13,14 +13,17 @@ import { FinanceModule } from './finance/finance.module';
 import { RegisterModule } from './register/register.module';
 import { RolesModule } from './roles/roles.module';
 import { RecordsModule } from './records/records.module';
+import { HomeComponent } from './home/home.component';
+import { NotFoundComponent } from './not-found/not-found.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
     BrowserAnimationsModule,
     MaterialModule,
     SchoolsModule,
@@ -30,7 +33,8 @@ import { RecordsModule } from './records/records.module';
     FinanceModule,
     RegisterModule,
     RolesModule,
-    RecordsModule
+    RecordsModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
