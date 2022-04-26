@@ -47,7 +47,7 @@ body {
     text-decoration: none;
   }
   .sidebar select:hover:not(.active) {
-    background-color: #E56A2E;
+    background-color: #20302F;
     color: #FFFFFF;
     display: block;
     font-size: 20px;
@@ -65,7 +65,7 @@ body {
     text-decoration: none;
   }
   .sidebar option:hover:not(.active) {
-    background-color: #E56A2E;
+    background-color: #20302F;
     color: #FFFFFF;
     display: block;
     font-size: 20px;
@@ -104,6 +104,7 @@ body {
     margin: 0px 0px;
     cursor: grab;
   }
+
 /* .buttons -> space the buttons out */
 
 
