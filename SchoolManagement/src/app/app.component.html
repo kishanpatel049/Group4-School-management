@@ -12,7 +12,21 @@
 
 <mat-sidenav-container>
   <mat-sidenav mode="side" opened>
-    sidenav
+    <div>
+      <button mat-button>Home</button>
+    </div>
+
+    <button mat-button [matMenuTriggerFor]="school_Info">school Info</button>
+    <mat-menu #school_Info="matMenu">
+      <button mat-menu-item routerLink="schools">sclools</button>
+      <button mat-menu-item routerLink="classes">classes</button>
+      <button mat-menu-item routerLink="semesters">semesters</button>
+      <button mat-menu-item routerLink="courses">courses</button>
+    </mat-menu>
+
+    <div>
+      <button mat-button>logout</button>
+    </div>
   </mat-sidenav>
   <mat-sidenav-content>
     <router-outlet></router-outlet>

@@ -1,7 +1,15 @@
 
-
 <div>
-  <div *ngFor="let link of links">
-    <a [routerLink]="link.route">{{link.rouerName}}</a>
+  <div>
+    <button mat-menu-item routerLink="schools">sclools</button>
+  </div>
+  <div>
+   <button mat-menu-item routerLink="classes">classes</button>
+  </div>
+  <div>
+    <button mat-menu-item routerLink="semesters">semesters</button>
+  </div>
+  <div>
+    <button mat-menu-item routerLink="courses">courses</button>
   </div>
 </div>
