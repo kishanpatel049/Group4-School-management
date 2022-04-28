@@ -3,6 +3,12 @@ body {
     font-family: "Lato", sans-serif;
     color: #20302F;
   }
+  h1 { 
+    font-size: 40px;
+    font: bold;
+    text-align: center;
+    padding: 5px;
+     }
   /* Colors:
   Blue: #686ccb
   White: #FFFFFF
