@@ -1,0 +1,34 @@
+  /* Colors:
+  Blue: #686ccb
+  White: #FFFFFF
+  Orange: #E56A2E
+  Black: #20302F
+  */
+
+.header h1{
+    font-size: 35px;
+    text-align: center;
+    font-style: bold;
+}
+.mat-sidenav-container{
+    height: 100%;
+    width: 100%;
+    background-color:  #FFFFFF;
+}
+.drawer{
+    width: 200px;
+    background-color:#686ccb;
+}
+.buttons button{
+    font-size: 25px;
+    display: block;
+    padding: 10px;
+}
+::ng-deep .option {
+    width: 199px;
+    background: #E56A2E;
+  }
+.mat-menu-item{
+    font-size: 20px;
+}
+/* look for a way to change color on hover */

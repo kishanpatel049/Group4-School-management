@@ -1,32 +1,40 @@
-<div>
-  <div>
-    <h1>Church of Phillipi</h1> <!-- can add img here instead -->
-  </div>
-  <div>
-    <div>
-      <h1>School Management</h1>
-     <h3>Name (Role)</h3>
-    </div>
-  </div>
+<div class="header">
+  <h1>Church of Phillipi</h1> <!-- can add img here instead -->
+  <h1>School Management</h1>
+  <h3>Name (Role)</h3>
 </div>
 
-<mat-sidenav-container>
-  <mat-sidenav mode="side" opened>
-    <div>
-      <button mat-button>Home</button>
-    </div>
-
-    <button mat-button [matMenuTriggerFor]="school_Info">school Info</button>
-    <mat-menu #school_Info="matMenu">
-      <button mat-menu-item routerLink="schools">sclools</button>
-      <button mat-menu-item routerLink="classes">classes</button>
-      <button mat-menu-item routerLink="semesters">semesters</button>
-      <button mat-menu-item routerLink="courses">courses</button>
+<mat-sidenav-container class="sidenav">
+  <mat-sidenav mode="side" opened class="drawer">
+    <div class="buttons">
+    <div><button mat-button>Home</button></div>
+    <button mat-button [matMenuTriggerFor]="school_Info">School Info</button>
+     <mat-menu #school_Info="matMenu" class="option">  <!--for the options of dropdown-->
+      <button mat-menu-item routerLink="schools">Schools</button>
+      <button mat-menu-item routerLink="classes">Classes</button>
+      <button mat-menu-item routerLink="semesters">Semesters</button>
+      <button mat-menu-item routerLink="courses">Courses</button>
     </mat-menu>
-
-    <div>
-      <button mat-button>logout</button>
-    </div>
+    <button mat-button [matMenuTriggerFor]="school_Info">Registration</button>
+      <mat-menu class="option"> <!-- routerlinks for the rest of the menu options -->
+     <button mat-menu-item >Suggested Classes</button>
+     <button mat-menu-item >Enroll</button>
+     <button mat-menu-item >Drop</button>
+   </mat-menu>
+   <button mat-button [matMenuTriggerFor]="school_Info">Finance</button>
+   <mat-menu #school_Info="matMenu" class="option">
+    <button mat-menu-item >Pay tuiton</button>
+    <button mat-menu-item >Pending Payment</button>
+  </mat-menu>
+  <button mat-button [matMenuTriggerFor]="school_Info">Records</button>
+  <mat-menu #school_Info="matMenu" class="option"> 
+   <button mat-menu-item >Student's List</button>
+   <button mat-menu-item >School's List</button>
+   <button mat-menu-item >Employee's List</button>
+   <button mat-menu-item >Finance List</button>
+ </mat-menu>
+    <div><button mat-button>Logout</button></div>
+  </div>
   </mat-sidenav>
   <mat-sidenav-content>
     <router-outlet></router-outlet>
