@@ -17,21 +17,21 @@
     </mat-menu>
     <button mat-button [matMenuTriggerFor]="school_Info">Registration</button>
       <mat-menu class="option"> <!-- routerlinks for the rest of the menu options -->
-     <button mat-menu-item >Suggested Classes</button>
-     <button mat-menu-item >Enroll</button>
-     <button mat-menu-item >Drop</button>
+     <button mat-menu-item routerLink="register">Suggested Classes</button>
+     <button mat-menu-item routerLink="register">Enroll</button>
+     <button mat-menu-item routerLink="register">Drop</button>
    </mat-menu>
    <button mat-button [matMenuTriggerFor]="school_Info">Finance</button>
    <mat-menu #school_Info="matMenu" class="option">
-    <button mat-menu-item >Pay tuiton</button>
-    <button mat-menu-item >Pending Payment</button>
+    <button mat-menu-item routerLink="finance">Pay tuiton</button>
+    <button mat-menu-item routerLink="finance">Pending Payment</button>
   </mat-menu>
   <button mat-button [matMenuTriggerFor]="school_Info">Records</button>
   <mat-menu #school_Info="matMenu" class="option"> 
-   <button mat-menu-item >Student's List</button>
-   <button mat-menu-item >School's List</button>
-   <button mat-menu-item >Employee's List</button>
-   <button mat-menu-item >Finance List</button>
+   <button mat-menu-item routerLink="Records">Student's List</button>
+   <button mat-menu-item routerLink="Records">School's List</button>
+   <button mat-menu-item routerLink="Records">Employee's List</button>
+   <button mat-menu-item routerLink="Records">Finance List</button>
  </mat-menu>
     <div><button mat-button>Logout</button></div>
   </div>

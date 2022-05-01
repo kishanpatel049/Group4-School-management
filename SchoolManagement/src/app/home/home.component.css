@@ -1,1 +1,17 @@
 /* this is for the content of sidenav, css for buttons */
+
+.mat-flat-button{
+    background-color: #E56A2E;
+    color: #FFFFFF;
+    padding: 30px 40px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    margin: 25px;
+    cursor: grab;
+}
+.buttons{
+    padding: 60px;
+    justify-content: space-evenly, center;
+}
+/* make them buttons? */
