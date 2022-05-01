@@ -17,7 +17,6 @@
     font-style: normal;
 }
 .mat-sidenav-container{
-    margin-top: top;
     height: 100%;
     width: 100%;
     background-color:  #FFFFFF;
@@ -33,10 +32,17 @@
     padding: 10px;
 }
 ::ng-deep .option {
-    width: 199px;
+    width: 200px;
     background: #E56A2E;
   }
-.mat-menu-item{
+.mat-menu-item, .mat-button{
     font-size: 20px;
+    color: #FFFFFF;
+}
+.diff{
+    /* changing the color of home and logout, remove if it doesn't look good */
+    text-align: left;
+    width: 100%;
+    background-color: #20302F;
 }
 /* look for a way to change color on hover */

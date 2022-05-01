@@ -3,10 +3,10 @@
   <h1>School Management</h1>
   <h3>Name (Role)</h3>
 </div>
-<mat-sidenav-container class="sidenav">
+<mat-sidenav-container>
   <mat-sidenav mode="side" opened class="drawer">
     <div class="buttons">
-    <button mat-button routerLink="">Home</button> 
+    <button mat-button routerLink="" class="diff">Home</button> 
     <button mat-button [matMenuTriggerFor]="school_Info">School Info</button>
      <mat-menu #school_Info="matMenu" class="option">  <!--for the options of dropdown-->
       <button mat-menu-item routerLink="schools">Schools</button>
@@ -32,7 +32,7 @@
    <button mat-menu-item routerLink="records">Employee's List</button>
    <button mat-menu-item routerLink="records">Finance List</button>
  </mat-menu>
-  <button mat-button>Logout</button>
+  <button mat-button class="diff">Logout</button>
   </div>
   </mat-sidenav>
   <mat-sidenav-content>
