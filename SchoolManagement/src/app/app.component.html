@@ -3,11 +3,10 @@
   <h1>School Management</h1>
   <h3>Name (Role)</h3>
 </div>
-
 <mat-sidenav-container class="sidenav">
   <mat-sidenav mode="side" opened class="drawer">
     <div class="buttons">
-    <div><button mat-button>Home</button></div>
+    <button mat-button routerLink="home">Home</button> <!--no option to go back to homepage-->
     <button mat-button [matMenuTriggerFor]="school_Info">School Info</button>
      <mat-menu #school_Info="matMenu" class="option">  <!--for the options of dropdown-->
       <button mat-menu-item routerLink="schools">Schools</button>
@@ -15,25 +14,25 @@
       <button mat-menu-item routerLink="semesters">Semesters</button>
       <button mat-menu-item routerLink="courses">Courses</button>
     </mat-menu>
-    <button mat-button [matMenuTriggerFor]="school_Info">Registration</button>
-      <mat-menu class="option"> <!-- routerlinks for the rest of the menu options -->
+    <button mat-button [matMenuTriggerFor]="register_Info">Registration</button>
+      <mat-menu #register_Info="matMenu"class="option"> 
      <button mat-menu-item routerLink="register">Suggested Classes</button>
      <button mat-menu-item routerLink="register">Enroll</button>
      <button mat-menu-item routerLink="register">Drop</button>
    </mat-menu>
-   <button mat-button [matMenuTriggerFor]="school_Info">Finance</button>
-   <mat-menu #school_Info="matMenu" class="option">
+   <button mat-button [matMenuTriggerFor]="finance_Info">Finance</button>
+   <mat-menu #finance_Info="matMenu" class="option">
     <button mat-menu-item routerLink="finance">Pay tuiton</button>
     <button mat-menu-item routerLink="finance">Pending Payment</button>
   </mat-menu>
-  <button mat-button [matMenuTriggerFor]="school_Info">Records</button>
-  <mat-menu #school_Info="matMenu" class="option"> 
+  <button mat-button [matMenuTriggerFor]="records_Info">Records</button>
+  <mat-menu #records_Info="matMenu" class="option"> 
    <button mat-menu-item routerLink="Records">Student's List</button>
    <button mat-menu-item routerLink="Records">School's List</button>
    <button mat-menu-item routerLink="Records">Employee's List</button>
-   <button mat-menu-item routerLink="Records">Finance List</button>
+   <button mat-menu-item routerLink="Records">Finance List</button> <!-- records page not found -->
  </mat-menu>
-    <div><button mat-button>Logout</button></div>
+  <button mat-button>Logout</button>
   </div>
   </mat-sidenav>
   <mat-sidenav-content>
