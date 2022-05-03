@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { SchoolsRoutingModule } from './schools-routing.module';
 import { SchoolsHomeComponent } from './schools-home/schools-home.component';
+import { MaterialModule } from '../material/material.module';
 
 
 @NgModule({
@@ -11,7 +12,8 @@ import { SchoolsHomeComponent } from './schools-home/schools-home.component';
   ],
   imports: [
     CommonModule,
-    SchoolsRoutingModule
+    SchoolsRoutingModule,
+    MaterialModule
   ],
   exports:[]
 })
