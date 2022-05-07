@@ -1,39 +1,18 @@
 <div>
   <div>
-    <button mat-raised-button>create</button>
-    <form class="example-form">
-      <mat-form-field>
+    <button mat-raised-button>Create</button>
+    <button mat-raised-button class="filter">Filter</button> <!-- make a menu/dropdown for filter -->
+      <mat-form-field class="search">
       <span matPrefix> </span>
-      <input type="tel" matInput placeholder="Search" name= "search" >
-      <button matSuffix mat-button>
-      <mat-icon>search</mat-icon>
-      </button>
+      <input type="text" matInput placeholder="Search" >
+      <button matSuffix mat-button> <mat-icon>search</mat-icon></button>
       </mat-form-field>
       <br/>
-      {{search}}
-      </form>
-    <button mat-raised-button>filter</button>
+      {{search}} 
   </div>
   <div>
     <!-- school list  html(use materials card greg) -->
   </div>
 </div>
 
-
-
-<!-- <div>
-  <div>
-    <button mat-raised-button>create</button>
-  </div>
-</div>
-<button class= "mat-raised-button" mat-raised-button>Create</button>
-<input class="search" type="text" placeholder="Search">
-    <option>Filter</option>
-
-</select>
-</select>
-
-<mat-form-field class="example-full-width" appearance="fill">
-    <textarea matInput placeholder="Ex. It makes me feel..."></textarea>
-  </mat-form-field> -->     <!-- isn't working but i imported in material module -->
 
