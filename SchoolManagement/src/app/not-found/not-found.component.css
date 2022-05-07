@@ -1,3 +1,11 @@
 h1{ 
     text-align: center;
+    font-weight: 500;
+}
+.mat-button{ 
+    margin: 100px 600px;
+    background: #E56A2E;
+   color: #FFFFFF;
+   font-size: 20px;
+   text-align: center;
 }
