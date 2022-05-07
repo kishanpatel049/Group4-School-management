@@ -1,0 +1,22 @@
+
+.mat-raised-button {
+    display: block;
+    background-color: #E56A2E;
+    color: #FFFFFF;
+    padding: 15px 60px;
+    text-align: center;
+    /* display: inline-block; */
+    font-size: 20px;
+    margin: 25px;
+    cursor: grab;
+}
+input[type=text], select {
+    margin: 0px 1100px;
+    padding: 10px 10px;
+    display: inline-block;
+    font-size: 16px;
+    border: 1px solid;
+    box-sizing: border-box;
+    background-color: #E56A2E;
+    color: #FFFFFF;
+}
