@@ -27,6 +27,8 @@
     background-color:#686ccb;
 }
 .buttons button{
+    width: 100%;
+    text-align: left;
     font-size: 25px;
     display: block;
     padding: 10px;
