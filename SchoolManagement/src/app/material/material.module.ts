@@ -5,14 +5,15 @@ import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatMenuModule} from '@angular/material/menu';
 import {MatIconModule} from '@angular/material/icon';
 import {MatInputModule} from '@angular/material/input';
-
+import {MatFormFieldModule} from '@angular/material/form-field';
 
 const MatterialComponenst = [
   MatButtonModule,
   MatSidenavModule,
   MatMenuModule,
   MatIconModule,
-  MatInputModule
+  MatInputModule,
+  MatFormFieldModule
 ];
 
 

@@ -9,11 +9,10 @@
     background-image: linear-gradient(#686ccb, #FFFFFF);;
 }
 .header h1{
-    font-weight: 600;
+    font-weight: 500;
     font: Verdana;
-    letter-spacing: 1px;
     font-size: 35px;
-    text-align: center;
+    text-align: left;
     font-style: normal;
 }
 .mat-sidenav-container{
