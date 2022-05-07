@@ -4,10 +4,15 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatMenuModule} from '@angular/material/menu';
 
+import {MatInputModule} from '@angular/material/input';
+import {MatFormFieldModule} from '@angular/material/form-field';
+
 const MatterialComponenst = [
   MatButtonModule,
   MatSidenavModule,
-  MatMenuModule
+  MatMenuModule,
+  MatInputModule,
+  MatFormFieldModule,
 ];
 
 
