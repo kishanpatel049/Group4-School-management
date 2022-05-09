@@ -17,12 +17,24 @@ export class SchoolsHomeComponent implements OnInit {
   }
   search : String ="";
 
-  schools: any =[
+  schools =[
     {
-
+      name:' art school',
+      principle:'principe name',
+      description:'school1',
+      schoolID:'1234567',
     },
     {
-
+      name:'K-12',
+      principle:'principe name',
+      description:'school2',
+      schoolID:'1234568',
+    },
+    {
+      name:'STEM school',
+      principle:'principe name',
+      description:'school2',
+      schoolID:'1234569',
     }
   ];
 

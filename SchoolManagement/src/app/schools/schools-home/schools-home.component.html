@@ -8,10 +8,16 @@
       <button matSuffix mat-button> <mat-icon>search</mat-icon></button>
       </mat-form-field>
       <br/>
-      {{search}} 
+      {{search}}
   </div>
   <div>
-    <!-- school list  html(use materials card greg) -->
+    <app-schoolcards
+      *ngFor = "let school of schools"
+      [name]="school.name"
+      [principle]="school.principle"
+      [description]="school.description"
+      [schoolID]="school.schoolID"
+    ></app-schoolcards>
   </div>
 </div>
 
