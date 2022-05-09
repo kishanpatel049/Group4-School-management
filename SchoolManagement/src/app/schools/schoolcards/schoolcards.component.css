@@ -1,0 +1,26 @@
+.buttons{
+    display: block;
+    background-color: #E56A2E;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+.button-group{
+    display: inline-block;
+}
+.options{
+    display: inline-block;
+}
+.cards{
+    width:100%;
+    text-align: right;
+}
+.mat-menu-item{
+    display: block;
+    background-color: #E56A2E;
+    color: #FFFFFF;
+    font-size: 16px; 
+}
+
+::ng-deep .customize {
+    background: #E56A2E;
+  }/*background of menu option, try to combine with above item  */

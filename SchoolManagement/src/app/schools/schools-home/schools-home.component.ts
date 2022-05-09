@@ -19,20 +19,20 @@ export class SchoolsHomeComponent implements OnInit {
 
   schools =[
     {
-      name:' art school',
-      principle:'principe name',
+      name:'Art school',
+      principle:'Principle name',
       description:'school1',
       schoolID:'1234567',
     },
     {
       name:'K-12',
-      principle:'principe name',
+      principle:'Principle name',
       description:'school2',
       schoolID:'1234568',
     },
     {
       name:'STEM school',
-      principle:'principe name',
+      principle:'Principle name',
       description:'school2',
       schoolID:'1234569',
     }

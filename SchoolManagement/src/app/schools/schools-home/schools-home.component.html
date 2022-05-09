@@ -10,7 +10,6 @@
       <br/>
       {{search}}
   </div>
-  <div class="bottom">
     <app-schoolcards
       *ngFor = "let school of schools"
       [name]="school.name"
@@ -19,6 +18,6 @@
       [schoolID]="school.schoolID"
     ></app-schoolcards>
   </div>
-</div>
+
 
 

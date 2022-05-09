@@ -1,23 +1,21 @@
 
 <mat-card>
   <mat-card-title>{{name}}</mat-card-title>
-
+  <h3>{{principle}}</h3>
+<div class="cards">
   <mat-card-content>
-    <h3>{{principle}}</h3>
-
-    <mat-button-toggle-group name="fontStyle" aria-label="Font Style">
-      <mat-button-toggle value="public">Public</mat-button-toggle>
-      <mat-button-toggle value="archived">Arcived</mat-button-toggle>
-      <mat-button-toggle value="draft">Draft</mat-button-toggle>
+    <mat-button-toggle-group class="button-group">
+      <mat-button-toggle value="public" class="buttons">Public</mat-button-toggle>
+      <mat-button-toggle value="archived" class="buttons">Archived</mat-button-toggle>
+      <mat-button-toggle value="draft" class="buttons">Draft</mat-button-toggle>
     </mat-button-toggle-group>
   </mat-card-content>
-
-  <mat-card-actions>
-    <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
-      <mat-icon>more_vert</mat-icon>
-    </button>
-    <mat-menu #menu="matMenu">
+  <mat-card-actions class="options">
+    <button mat-icon-button [matMenuTriggerFor]="menu"><mat-icon>more_vert</mat-icon></button>
+    <mat-menu #menu="matMenu" class="customize">
       <button mat-menu-item>Edit</button>
+      <button mat-menu-item>Delete</button>
     </mat-menu>
   </mat-card-actions>
+</div>
 </mat-card>

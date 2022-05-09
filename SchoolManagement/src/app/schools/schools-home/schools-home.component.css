@@ -11,20 +11,18 @@
     display: inline-block;
 }
 .search {
-    padding: 0px 5px;
     font-size: 18px;
     box-sizing: border-box;
+    border: none;
     background-color: #E56A2E;
     color: #FFFFFF;
     display: inline-block;
-    margin-right: 20%;
+    margin-right: 5%;
+}
+.create{
+    margin-right: 30%;
 }
 .top{
     width:100%;
-    text-align: left;
-}
-.bottom{
-    width: 100%;
-    /* display: inline-block; */
-    /* float: inline-end; */
+    text-align: center;
 }
