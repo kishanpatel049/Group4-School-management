@@ -20,7 +20,6 @@
     color: #FFFFFF;
     font-size: 16px; 
 }
-
 ::ng-deep .customize {
     background: #E56A2E;
   }/*background of menu option, try to combine with above item  */
