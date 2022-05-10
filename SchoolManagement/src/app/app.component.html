@@ -32,6 +32,11 @@
    <button mat-menu-item routerLink="records">Employee's List</button>
    <button mat-menu-item routerLink="records">Finance List</button>
  </mat-menu>
+ <button mat-button [matMenuTriggerFor]="roles_Info">Roles</button>
+ <mat-menu #roles_Info="matMenu" class="option">
+  <button mat-menu-item routerLink="roles">Roles</button>
+  <button mat-menu-item routerLink="roles">Accessibility</button>
+</mat-menu>
   <button mat-button class="diff">Logout</button>
   </div>
   </mat-sidenav>
