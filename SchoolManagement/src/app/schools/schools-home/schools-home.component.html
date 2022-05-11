@@ -18,3 +18,17 @@
       [schoolID]="school.schoolID"
     ></app-schoolcards>
   </div>
+  <br> <!-- make a margin instead -->
+  <button mat-menu [matMenuTriggerFor]="menu" class="details">Details</button>
+  <mat-menu #menu="matMenu" class="customize">
+    <button mat-menu-item>Semester List</button>
+    <button mat-menu-item>Class List</button>
+    <button mat-menu-item>Register Student </button>
+    <button mat-menu-item>Assign Roles</button>
+    <button mat-menu-item>Edit</button>
+    <button mat-menu-item>Delete</button>
+    <button mat-menu-item>Archive</button>
+    <button mat-menu-item><input type="checkbox"><label>Viewable</label></button>
+    <button mat-menu-item><input type="checkbox"><label>Public</label></button>
+    <button mat-menu-item>Close Window</button>
+  </mat-menu>

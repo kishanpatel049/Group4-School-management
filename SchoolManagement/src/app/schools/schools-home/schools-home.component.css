@@ -1,5 +1,5 @@
 
-.mat-raised-button {
+.mat-raised-button, .details {
     display: block;
     background-color: #E56A2E;
     color: #FFFFFF;
@@ -9,6 +9,7 @@
     margin: 10px;
     cursor: grab;
     display: inline-block;
+    border: none;
 }
 .search {
     font-size: 18px;
@@ -26,3 +27,11 @@
     width:100%;
     text-align: center;
 }
+.mat-menu-item{
+    font-size: 18px;
+    width: 250px;
+}
+/* .details{
+    text-align: right;
+    margin: 10px;
+} */
