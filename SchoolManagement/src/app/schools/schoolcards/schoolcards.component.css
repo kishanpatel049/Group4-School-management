@@ -4,10 +4,7 @@
     color: #FFFFFF;
     font-size: 16px;
 }
-.button-group{
-    display: inline-block;
-}
-.options{
+.button-group, .options{
     display: inline-block;
 }
 .cards{
@@ -22,4 +19,7 @@
 }
 ::ng-deep .customize {
     background: #E56A2E;
-  }/*background of menu option, try to combine with above item  */
+}
+.title{
+      display: inline-block;
+}
