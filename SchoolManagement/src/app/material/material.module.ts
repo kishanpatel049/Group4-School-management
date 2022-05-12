@@ -8,6 +8,8 @@ import {MatInputModule} from '@angular/material/input';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatCardModule} from '@angular/material/card';
 import {MatButtonToggleModule} from '@angular/material/button-toggle';
+import {MatCheckboxModule} from '@angular/material/checkbox';
+
 
 const MatterialComponenst = [
   MatButtonModule,
@@ -17,7 +19,8 @@ const MatterialComponenst = [
   MatInputModule,
   MatFormFieldModule,
   MatCardModule,
-  MatButtonToggleModule
+  MatButtonToggleModule,
+  MatCheckboxModule
 ];
 
 

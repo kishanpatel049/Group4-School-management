@@ -31,7 +31,10 @@
     font-size: 18px;
     width: 250px;
 }
-/* .details{
-    text-align: right;
-    margin: 10px;
-} */
+.check{
+    /* margin: 0 12px; */
+    font-size: 18px;
+}
+  mat-checkbox.md-checked.class .md-icon {
+    background-color: red;
+   }/*try to change the color of the checks */
