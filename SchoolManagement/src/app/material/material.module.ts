@@ -9,7 +9,7 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatCardModule} from '@angular/material/card';
 import {MatButtonToggleModule} from '@angular/material/button-toggle';
 import {MatCheckboxModule} from '@angular/material/checkbox';
-
+import {MatDialogModule} from '@angular/material/dialog';
 
 const MatterialComponenst = [
   MatButtonModule,
@@ -20,7 +20,9 @@ const MatterialComponenst = [
   MatFormFieldModule,
   MatCardModule,
   MatButtonToggleModule,
-  MatCheckboxModule
+  MatCheckboxModule,
+  MatDialogModule
+
 ];
 
 
