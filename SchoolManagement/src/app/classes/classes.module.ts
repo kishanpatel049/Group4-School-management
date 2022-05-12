@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { ClassesRoutingModule } from './classes-routing.module';
 import { ClassesHomeComponent } from './classes-home/classes-home.component';
+import { MaterialModule } from '../material/material.module';
 
 
 @NgModule({
@@ -11,7 +12,8 @@ import { ClassesHomeComponent } from './classes-home/classes-home.component';
   ],
   imports: [
     CommonModule,
-    ClassesRoutingModule
+    ClassesRoutingModule,
+    MaterialModule
   ],
   exports:[]
 })

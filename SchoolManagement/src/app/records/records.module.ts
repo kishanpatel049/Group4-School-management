@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { RecordsRoutingModule } from './records-routing.module';
 import { RecordsHomeComponent } from './records-home/records-home.component';
+import { MaterialModule } from '../material/material.module';
 
 
 @NgModule({
@@ -11,7 +12,8 @@ import { RecordsHomeComponent } from './records-home/records-home.component';
   ],
   imports: [
     CommonModule,
-    RecordsRoutingModule
+    RecordsRoutingModule,
+    MaterialModule
   ],
   exports:[]
 })

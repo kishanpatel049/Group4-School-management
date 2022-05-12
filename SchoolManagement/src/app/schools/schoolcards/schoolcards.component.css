@@ -1,0 +1,25 @@
+.buttons{
+    display: block;
+    background-color: #E56A2E;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+.button-group, .options{
+    display: inline-block;
+}
+.cards{
+    width:100%;
+    text-align: right;
+}
+.mat-menu-item{
+    display: block;
+    background-color: #E56A2E;
+    color: #FFFFFF;
+    font-size: 16px; 
+}
+::ng-deep .customize {
+    background: #E56A2E;
+}
+.title{
+      display: inline-block;
+}

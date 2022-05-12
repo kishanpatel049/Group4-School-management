@@ -3,17 +3,21 @@ import { CommonModule } from '@angular/common';
 
 import { SchoolsRoutingModule } from './schools-routing.module';
 import { SchoolsHomeComponent } from './schools-home/schools-home.component';
-import { CreateSchoolComponent } from './create-school/create-school.component';
 
+import { MaterialModule } from '../material/material.module';
+import { SchoolcardsComponent } from './schoolcards/schoolcards.component';
+import { CreateSchoolComponent } from './create-school/create-school.component';
 
 @NgModule({
   declarations: [
     SchoolsHomeComponent,
+    SchoolcardsComponent,
     CreateSchoolComponent
   ],
   imports: [
     CommonModule,
-    SchoolsRoutingModule
+    SchoolsRoutingModule,
+    MaterialModule
   ],
   exports:[]
 })

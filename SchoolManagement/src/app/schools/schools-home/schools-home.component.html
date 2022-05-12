@@ -1,1 +1,34 @@
-<p>schools-home works!</p>
+<div>
+  <div class="top">
+    <button mat-raised-button (click)="openDialog()" class="create">Create</button>
+    <button mat-raised-button >Filter</button> <!-- make a menu/dropdown for filter -->
+      <mat-form-field class="search">
+      <span matPrefix> </span>
+      <input type="text" matInput placeholder="Search" >
+      <button matSuffix mat-button> <mat-icon>search</mat-icon></button>
+      </mat-form-field>
+      <br/>
+      {{search}}
+  </div>
+    <app-schoolcards
+      *ngFor = "let school of schools"
+      [name]="school.name"
+      [principle]="school.principle"
+      [description]="school.description"
+      [schoolID]="school.schoolID"
+    ></app-schoolcards>
+  </div>
+  <br> <!-- make a margin instead -->
+  <button mat-menu [matMenuTriggerFor]="menu" class="details">Details</button>
+  <mat-menu #menu="matMenu" class="customize">
+    <button mat-menu-item>Semester List</button>
+    <button mat-menu-item>Class List</button>
+    <button mat-menu-item>Register Student </button>
+    <button mat-menu-item>Assign Roles</button>
+    <button mat-menu-item>Edit</button>
+    <button mat-menu-item>Delete</button>
+    <button mat-menu-item>Archive</button>
+    <button mat-menu-item><mat-checkbox class="check">Viewable</mat-checkbox></button>
+    <button mat-menu-item><mat-checkbox class="check">Public</mat-checkbox></button>
+    <button mat-menu-item>Close Window</button>
+  </mat-menu>
