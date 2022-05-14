@@ -18,6 +18,7 @@ export class CreateSchoolComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    this.dialogRef.updateSize('80%', '80%');
   }
 
 }

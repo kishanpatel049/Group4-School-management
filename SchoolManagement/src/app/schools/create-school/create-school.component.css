@@ -1,0 +1,49 @@
+.mat-dialog-title{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 900;
+}
+p{
+    text-align: center;
+    font-size: 16px;
+    font-style: italic;
+}
+.mat-dialog-content{
+    text-align: center;
+    font-size: 18px;   
+}
+h3{
+    font-size: 18px;
+}
+
+.check{
+    display: inline-block;
+}
+.buttons{
+    padding: 10px;
+}
+
+.mat-button{
+    display: block;
+    background-color: #E56A2E;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+.delete{
+    display: block;
+    background-color: #20302F;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+.grid {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1px;
+}
+.child {
+    display: inline-block;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+}
