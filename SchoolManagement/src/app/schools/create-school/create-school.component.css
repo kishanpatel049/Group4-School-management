@@ -44,6 +44,7 @@ h3{
 }
 .child {
     display: inline-block;
-    padding: 1rem 1rem;
+    /* padding: 1rem 1rem; */
+    padding: 5px;
     vertical-align: middle;
 }
